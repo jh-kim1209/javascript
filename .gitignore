@@ -1,0 +1,34 @@
+# Dependency directories
+node_modules/
+
+# Claude generated code
+**/claude/
+reports-claude/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build outputs and logs
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Agent related docs
+.agents/
+docs_from_agy/
+GEMINI_MISSION_REVIEW_PLAN.md
+CLAUDE_MISSION_STYLE_GUIDE.md
+
+# Intermediate agent logs
+reports/second_simulation_logs/
+reports/claude_simulation_by_agy/*_batch_*_log.md
+reports/01-basic/

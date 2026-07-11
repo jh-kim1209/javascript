@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "checkJs": false,
+    "outDir": "./dist"
+  },
+  "include": [
+    "01-basic/chapters/**/*",
+    "02-intermediate/chapters/**/*",
+    "03-advanced/chapters/**/*"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

@@ -32,3 +32,6 @@ CLAUDE_MISSION_STYLE_GUIDE.md
 reports/second_simulation_logs/
 reports/claude_simulation_by_agy/*_batch_*_log.md
 reports/01-basic/
+
+# Claude specific configuration
+.claude/
